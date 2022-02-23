@@ -1,8 +1,11 @@
 {
   "dependencies": {
     "@babel/preset-env": "^7.16.11",
+    "body-parser": "^1.19.2",
     "express": "^4.17.3",
+    "morgan": "^1.10.0",
     "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
     "pkg": "^5.5.2",
     "postgres": "^1.0.2",
     "react": "^17.0.2",
@@ -10,6 +13,9 @@
     "react-redux": "^7.2.6",
     "react-router-dom": "^6.2.1",
     "redux": "^4.1.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.1",
+    "sequelize": "^6.16.2",
     "webpack-dev-server": "^4.7.4"
   },
   "scripts": {
