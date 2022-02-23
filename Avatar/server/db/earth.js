@@ -2,7 +2,7 @@ const Sequelize = require('sequelize');
 const db = require('./database')
 
 const Earth = db.define('earth', {
-  Question: {
+  question: {
     type: Sequelize.TEXT,
     allowNull: false,
     validate: {

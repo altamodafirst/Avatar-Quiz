@@ -20,7 +20,8 @@
   },
   "scripts": {
     "start": "node server",
-    "start-dev": "webpack -w & nodemon server"
+    "start-dev": "webpack -w & nodemon server",
+    "seed": "node seed.js"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",

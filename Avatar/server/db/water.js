@@ -2,7 +2,7 @@ const Sequelize = require('sequelize');
 const db = require('./database')
 
 const Water = db.define('water', {
-  Question: {
+  question: {
     type: Sequelize.TEXT,
     allowNull: false,
     validate: {

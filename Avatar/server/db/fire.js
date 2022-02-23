@@ -2,7 +2,7 @@ const Sequelize = require('sequelize');
 const db = require('./database')
 
 const Fire = db.define('fire', {
-  Question: {
+  question: {
     type: Sequelize.TEXT,
     allowNull: false,
     validate: {
