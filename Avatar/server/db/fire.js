@@ -1,10 +1,7 @@
 const Sequelize = require('sequelize');
 const db = require('./database')
 
-
-
-
-const fire = db.define('fire', {
+const Fire = db.define('fire', {
   Question: {
     type: Sequelize.TEXT,
     allowNull: false,
@@ -25,3 +22,5 @@ const fire = db.define('fire', {
     }
   }
 })
+
+module.exports = Fire
